@@ -1,0 +1,17 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    color: #1d1d1d;
+  }
+
+  .navbar {
+    font-size: 18px;
+    letter-spacing: 5px;
+   
+  }
+  .navbar-nav li a:hover {
+    color: #50affc !important;
+  }
+
+  #search-icon:hover{
+    color: #fff;
+  }
