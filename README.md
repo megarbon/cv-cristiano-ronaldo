@@ -20,6 +20,7 @@ El proyecto ha sido desarrollado utilizando las siguientes tecnologías:
 
 ## Cómo Usar
 
+0. El proyecto está desplegado en Vercel: cv-cristiano-ronaldo.vercel.app
 1. Clona este repositorio en tu máquina local.
 2. Abre el archivo `index.html` en tu navegador web para ver el Curriculum Vitae de Cristiano Ronaldo.
 
