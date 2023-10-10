@@ -1,376 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <title>Cristiano Ronaldo</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- Google fonts -->
+  <title>Cristiano Ronaldo</title>
 
-    <!-- Bootstrap icons-->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
-    />
-    <!-- Bootstrap CSS-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
-    <!-- Bootstrap JS-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="./styles/styles.css">
-  </head>
+  <!-- Google fonts -->
 
-  <body class="min-vh-100 d-flex flex-column">
-    <header>
-      <div class="container-fluid">
-        <!--NavBar-->
-        <!--Esta navbar tiene logo, enlaces en el centro, es sticky, busqueda y toggle en moviles-->
-        <nav class="navbar fixed-top navbar-expand-lg bg-light shadow">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="./images/logo-cr7.png" alt="logo" height="50px" />
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarToggle"
-              aria-controls="navbarToggle"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div
-              class="collapse navbar-collapse justify-content-between"
-              id="navbarToggle"
-            >
-              <div
-                class="container align-items-center d-flex justify-content-center"
-              >
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link text-black" href="#">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-black" href="#educacion">Educacion</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-black" href="#experiencia">Experiencia</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-black" href="./pages/galeria.html">Galeria</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-black" href="./pages/contact.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-              <form class="d-flex" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Buscar"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-primary" type="submit">
-                  <a href="#" class="bi bi-search text-dark" id="search-icon"></a>
-                </button>
-              </form>
+  <!-- Bootstrap icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+  <!-- Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <!-- Bootstrap JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body class="min-vh-100 d-flex flex-column">
+  <header>
+    <div class="container-fluid">
+      <!--NavBar-->
+      <!--Esta navbar tiene logo, enlaces en el centro, es sticky, busqueda y toggle en moviles-->
+      <nav class="navbar fixed-top navbar-expand-lg bg-light shadow">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo-cr7.png" alt="logo" height="50px" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle"
+            aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+            <div class="container align-items-center d-flex justify-content-center">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="#educacion">Educacion</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="#experiencia">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="./pages/galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="./pages/contact.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+              <button class="btn btn-outline-primary" type="submit">
+                <a href="#" class="bi bi-search text-dark" id="search-icon"></a>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--Fin NavBar-->
+  </header>
+
+  <!--Un div vacio para meter espacio en blanco-->
+  <div class="container-fluid" style="height: 100px"></div>
+  <br />
+
+  <!-- Primera parte -->
+  <div class="container-fluid bg-body-transparent text-center">
+    <div class="row align-items-center">
+      <div class="col-5">
+        <img class="img-fluid" src="cris1.png" alt="Cristiano gritando" />
+      </div>
+      <div class="col-7">
+        <h1 class="display-2">¡Hola, soy Cristiano!</h1>
+        <p class="text-white display-6">Uno de los futbolistas más apasionados y dedicados del mundo. A lo largo de mi
+          carrera, he tenido el privilegio de representar a algunos de los clubes más grandes y exitosos, así como a mi
+          país, Portugal.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <section class="bg-body py-5">
+    <div class="container px-5">
+      <div class="row gx-5 justify-content-center">
+        <div class="col-xxl-8">
+          <div class="text-center my-5">
+            <h2 class="display-5 fw-bolder">
+              <span class="text-gradient d-inline">Sobre Mi</span>
+            </h2>
+            <p class="lead fw-light mb-4">
+              Mi nombre es Cristiano Ronaldo dos Santos Aveiro y naci en la isla de
+              Madeira
+            </p>
+            <p class="text-muted">
+              Soy uno de los futbolistas más apasionados y dedicados del mundo. A lo largo de mi carrera, he tenido el
+              privilegio de representar a algunos de los clubes más grandes y exitosos, así como a mi país, Portugal.
+            </p>
+            <div class="d-flex justify-content-center fs-2 gap-4">
+              <a class="text-gradient" href="#!"><i class="bi bi-twitter"></i></a>
+              <a class="text-gradient" href="#!"><i class="bi bi-linkedin"></i></a>
+              <a class="text-gradient" href="#!"><i class="bi bi-github"></i></a>
             </div>
           </div>
-        </nav>
-      </div>
-
-      <!--Fin NavBar-->
-    </header>
-
-    <!--Un div vacio para meter espacio en blanco-->
-    <div class="container-fluid" style="height: 100px"></div>
-    <br />
-
-    <!-- Primera parte -->
-    <div class="container-fluid bg-body text-center">
-      <div class="row align-items-center">
-        <div class="col-5">
-          <img class="img-fluid" src="cris1.png" alt="Cristiano gritando" />
-        </div>
-        <div class="col-7">
-          <h1 class="display-2">¡Hola, soy Cristiano!</h1>
-          <p class="text-secondary display-6">Uno de los futbolistas más apasionados y dedicados del mundo. A lo largo de mi carrera, he tenido el privilegio de representar a algunos de los clubes más grandes y exitosos, así como a mi país, Portugal.
-          </p>
         </div>
       </div>
     </div>
+  </section>
+  <!--Fin About Section-->
 
-    <!-- About Section -->
-    <section class="bg-light py-5">
-      <div class="container px-5">
-        <div class="row gx-5 justify-content-center">
-          <div class="col-xxl-8">
-            <div class="text-center my-5">
-              <h2 class="display-5 fw-bolder">
-                <span class="text-gradient d-inline">Sobre Mi</span>
-              </h2>
-              <p class="lead fw-light mb-4">
-                Mi nombre es Cristiano Ronaldo dos Santos Aveiro y naci en la isla de
-                Madeira
-              </p>
-              <p class="text-muted">
-              Soy uno de los futbolistas más apasionados y dedicados del mundo. A lo largo de mi carrera, he tenido el privilegio de representar a algunos de los clubes más grandes y exitosos, así como a mi país, Portugal.
-              </p>
-              <div class="d-flex justify-content-center fs-2 gap-4">
-                <a class="text-gradient" href="#!"
-                  ><i class="bi bi-twitter"></i
-                ></a>
-                <a class="text-gradient" href="#!"
-                  ><i class="bi bi-linkedin"></i
-                ></a>
-                <a class="text-gradient" href="#!"
-                  ><i class="bi bi-github"></i
-                ></a>
-              </div>
-            </div>
+  <!-- Page Content-->
+  <div class="container px-5 my-5">
+    <div class="text-center mb-5">
+      <h1 class="display-5 fw-bolder mb-0">
+        <span class="text-gradient d-inline">Curriculum</span>
+      </h1>
+    </div>
+    <div class="row gx-5 justify-content-center">
+      <div class="col-lg-11 col-xl-9 col-xxl-8">
+        <!-- Experience Section-->
+        <section id="experiencia">
+          <div class="d-flex align-items-center justify-content-between mb-4">
+            <h2 class="text-primary fw-bolder mb-0">Experience</h2>
+            <!-- Download resume button-->
+            <!-- Note: Set the link href target to a PDF file within your project-->
+            <a class="btn btn-primary px-4 py-3" href="#!">
+              <div class="d-inline-block bi bi-download me-2"></div>
+              Descargar CV
+            </a>
           </div>
-        </div>
-      </div>
-    </section>
-    <!--Fin About Section-->
-
-    <!-- Page Content-->
-    <div class="container px-5 my-5">
-      <div class="text-center mb-5">
-        <h1 class="display-5 fw-bolder mb-0">
-          <span class="text-gradient d-inline">Curriculum</span>
-        </h1>
-      </div>
-      <div class="row gx-5 justify-content-center">
-        <div class="col-lg-11 col-xl-9 col-xxl-8">
-          <!-- Experience Section-->
-          <section id="experiencia">
-            <div class="d-flex align-items-center justify-content-between mb-4">
-              <h2 class="text-primary fw-bolder mb-0">Experience</h2>
-              <!-- Download resume button-->
-              <!-- Note: Set the link href target to a PDF file within your project-->
-              <a class="btn btn-primary px-4 py-3" href="#!">
-                <div class="d-inline-block bi bi-download me-2"></div>
-                Descargar CV
-              </a>
-            </div>
-            <!-- Experience Card 1-->
-            <div class="card shadow border-0 rounded-4 mb-5">
-              <div class="card-body p-5">
-                <div class="row align-items-center gx-5">
-                  <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                    <div class="bg-light p-4 rounded-4">
-                      <div class="text-primary fw-bolder mb-2">
-                        2003 - 2009
-                      </div>
-                      <div class="small fw-bolder">Manchester United FC</div>
-                      <div class="small text-secondary">Manchester</div>
-                      <div class="small text-muted">Reino Unido</div>
-                    </div>
-                  </div>
-                  <div class="col-lg-8">
-                    <div>
-                      Fui traspasado al Manchester United en 2003, donde me convertí en una figura clave en el equipo. Durante mi tiempo en el club, ganamos numerosos títulos, incluyendo la Liga de Campeones de la UEFA en 2008.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Experience Card 2-->
-            <div class="card shadow border-0 rounded-4 mb-5">
-              <div class="card-body p-5">
-                <div class="row align-items-center gx-5">
-                  <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                    <div class="bg-light p-4 rounded-4">
-                      <div class="text-primary fw-bolder mb-2">2008 - 2018</div>
-                      <div class="small fw-bolder">Real Madrid CF</div>
-                      <div class="small text-secondary">Madrid</div>
-                      <div class="small text-muted">España</div>
-                    </div>
-                  </div>
-                  <div class="col-lg-8">
-                    <div>
-                      En 2009, hice el emocionante traspaso al Real Madrid, convirtiéndome en uno de los fichajes más caros de la historia. Durante esta etapa, ganamos numerosos títulos, incluyendo cuatro Ligas de Campeones de la UEFA.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Experience Card 3-->
-            <div class="card shadow border-0 rounded-4 mb-5">
-              <div class="card-body p-5">
-                <div class="row align-items-center gx-5">
-                  <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                    <div class="bg-light p-4 rounded-4">
-                      <div class="text-primary fw-bolder mb-2">2003 - Presente</div>
-                      <div class="small fw-bolder">Selección Nacional de Portugal </div>
-                      <div class="small text-secondary">Portugal</div>
-                      <div class="small text-muted">Portugal</div>
-                    </div>
-                  </div>
-                  <div class="col-lg-8">
-                    <div>
-                      He tenido el honor de representar a mi país, Portugal, en numerosos torneos internacionales, incluyendo la Copa del Mundo de la FIFA y la Eurocopa. He liderado a mi selección a la victoria en la Eurocopa 2016 y la Liga de Naciones de la UEFA en 2019.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-           <!-- Experience Card 4-->
-           <div class="card shadow border-0 rounded-4 mb-5">
+          <!-- Experience Card 1-->
+          <div class="card shadow border-0 rounded-4 mb-5 experience-container  ">
             <div class="card-body p-5">
               <div class="row align-items-center gx-5">
                 <div class="col text-center text-lg-start mb-4 mb-lg-0">
                   <div class="bg-light p-4 rounded-4">
-                    <div class="text-primary fw-bolder mb-2">2018 - Presente</div>
-                    <div class="small fw-bolder">Juventus FC</div>
-                    <div class="small text-secondary">Milan</div>
-                    <div class="small text-muted">Italia</div>
+                    <div class="text-primary fw-bolder mb-2">
+                      2003 - 2009
+                    </div>
+                    <div class="small fw-bolder">Manchester United FC</div>
+                    <div class="small text-secondary">Manchester</div>
+                    <div class="small text-muted">Reino Unido</div>
                   </div>
                 </div>
                 <div class="col-lg-8">
                   <div>
-                    En 2018, me uní a la Juventus, donde continué mi carrera en la Serie A italiana. Ayudé al equipo a ganar varios títulos de liga y copas.                  </div>
+                    Fui traspasado al Manchester United en 2003, donde me convertí en una figura clave en el equipo.
+                    Durante mi tiempo en el club, ganamos numerosos títulos, incluyendo la Liga de Campeones de la UEFA
+                    en 2008.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Experience Card 2-->
+          <div class="card shadow border-0 rounded-4 mb-5 experience-container">
+            <div class="card-body p-5">
+              <div class="row align-items-center gx-5">
+                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                  <div class="bg-light p-4 rounded-4">
+                    <div class="text-primary fw-bolder mb-2">2008 - 2018</div>
+                    <div class="small fw-bolder">Real Madrid CF</div>
+                    <div class="small text-secondary">Madrid</div>
+                    <div class="small text-muted">España</div>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div>
+                    En 2009, hice el emocionante traspaso al Real Madrid, convirtiéndome en uno de los fichajes más
+                    caros de la historia. Durante esta etapa, ganamos numerosos títulos, incluyendo cuatro Ligas de
+                    Campeones de la UEFA.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Experience Card 3-->
+          <div class="card shadow border-0 rounded-4 mb-5 experience-container">
+            <div class="card-body p-5">
+              <div class="row align-items-center gx-5">
+                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                  <div class="bg-light p-4 rounded-4">
+                    <div class="text-primary fw-bolder mb-2">2003 - Presente</div>
+                    <div class="small fw-bolder">Selección Nacional de Portugal </div>
+                    <div class="small text-secondary">Portugal</div>
+                    <div class="small text-muted">Portugal</div>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div>
+                    He tenido el honor de representar a mi país, Portugal, en numerosos torneos internacionales,
+                    incluyendo la Copa del Mundo de la FIFA y la Eurocopa. He liderado a mi selección a la victoria en
+                    la Eurocopa 2016 y la Liga de Naciones de la UEFA en 2019.
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-          <!-- Education Section-->
-          <section id="educacion">
-            <h2 class="text-secondary fw-bolder mb-4">Education</h2>
-            <!-- Education Card 1-->
-            <div class="card shadow border-0 rounded-4 mb-5">
-              <div class="card-body p-5">
-                <div class="row align-items-center gx-5">
-                  <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                    <div class="bg-light p-4 rounded-4">
-                      <div class="text-secondary fw-bolder mb-2">
-                        1996-2002
-                      </div>
-                      <div class="mb-2">
-                        <div class="small fw-bolder">Escola do Porto</div>
-                        <div class="small text-muted">Madeira</div>
-                      </div>
-                      <div class="fst-italic">
-                        <div class="small text-secondary">Educacion Secundaria</div>
-                        <div class="small text-muted">Obligatoria</div>
-                      </div>
+        <!-- Experience Card 4-->
+        <div class="card shadow border-0 rounded-4 mb-5 experience-container">
+          <div class="card-body p-5">
+            <div class="row align-items-center gx-5">
+              <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                <div class="bg-light p-4 rounded-4">
+                  <div class="text-primary fw-bolder mb-2">2018 - Presente</div>
+                  <div class="small fw-bolder">Juventus FC</div>
+                  <div class="small text-secondary">Milan</div>
+                  <div class="small text-muted">Italia</div>
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div>
+                  En 2018, me uní a la Juventus, donde continué mi carrera en la Serie A italiana. Ayudé al equipo a
+                  ganar varios títulos de liga y copas. </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+        <!-- Education Section-->
+        <section id="educacion">
+          <h2 class="text-primary fw-bolder mb-4">Education</h2>
+          <!-- Education Card 1-->
+          <div class="card shadow border-0 rounded-4 mb-5 experience-container">
+            <div class="card-body p-5">
+              <div class="row align-items-center gx-5">
+                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                  <div class="bg-light p-4 rounded-4">
+                    <div class="text-secondary fw-bolder mb-2">
+                      1996-2002
+                    </div>
+                    <div class="mb-2">
+                      <div class="small fw-bolder">Escola do Porto</div>
+                      <div class="small text-muted">Madeira</div>
+                    </div>
+                    <div class="fst-italic">
+                      <div class="small text-secondary">Educacion Secundaria</div>
+                      <div class="small text-muted">Obligatoria</div>
                     </div>
                   </div>
-                  <div class="col-lg-8">
-                    <div>
-                      Completé con éxito mis estudios de Educación Secundaria Obligatoria en la prestigiosa Escuela do Porto, donde además de mi formación académica, también desarrollé mis habilidades deportivas incipientes. Esta etapa marcó el inicio de mi apasionante viaje en el mundo del fútbol.
-                    </div>
+                </div>
+                <div class="col-lg-8">
+                  <div>
+                    Completé con éxito mis estudios de Educación Secundaria Obligatoria en la prestigiosa Escuela do
+                    Porto, donde además de mi formación académica, también desarrollé mis habilidades deportivas
+                    incipientes. Esta etapa marcó el inicio de mi apasionante viaje en el mundo del fútbol.
                   </div>
                 </div>
               </div>
             </div>
-            <!-- Education Card 2-->
-            <div class="card shadow border-0 rounded-4 mb-5">
-              <div class="card-body p-5">
-                <div class="row align-items-center gx-5">
-                  <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                    <div class="bg-light p-4 rounded-4">
-                      <div class="text-secondary fw-bolder mb-2">
-                        2017
-                      </div>
-                      <div class="mb-2">
-                        <div class="small fw-bolder">Curso de Nutricion Deportiva</div>
-                        <div class="small text-muted"></div>
-                      </div>
-                      <div class="fst-italic">
-                        <div class="small text-muted">Sport Science School</div>
-                        <div class="small text-muted">Londres</div>
-                      </div>
+          </div>
+          <!-- Education Card 2-->
+          <div class="card shadow border-0 rounded-4 mb-5 experience-container">
+            <div class="card-body p-5">
+              <div class="row align-items-center gx-5">
+                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                  <div class="bg-light p-4 rounded-4">
+                    <div class="text-secondary fw-bolder mb-2">
+                      2017
+                    </div>
+                    <div class="mb-2">
+                      <div class="small fw-bolder">Curso de Nutricion Deportiva</div>
+                      <div class="small text-muted"></div>
+                    </div>
+                    <div class="fst-italic">
+                      <div class="small text-muted">Sport Science School</div>
+                      <div class="small text-muted">Londres</div>
                     </div>
                   </div>
-                  <div class="col-lg-8">
-                    <div>
-                      Durante este curso, adquirí conocimientos esenciales sobre la relación entre la nutrición y el rendimiento deportivo. Exploré principios fundamentales de la alimentación equilibrada para atletas, aprendiendo a diseñar planes de alimentación personalizados para optimizar el desempeño y la recuperación. 
-                    </div>
+                </div>
+                <div class="col-lg-8">
+                  <div>
+                    Durante este curso, adquirí conocimientos esenciales sobre la relación entre la nutrición y el
+                    rendimiento deportivo. Exploré principios fundamentales de la alimentación equilibrada para atletas,
+                    aprendiendo a diseñar planes de alimentación personalizados para optimizar el desempeño y la
+                    recuperación.
                   </div>
                 </div>
               </div>
             </div>
-          </section>
-          <!-- Divider-->
-          <div class="pb-5"></div>
-          <!-- Skills Section-->
-          <section>
-            <!-- Skillset Card-->
-            <div class="card shadow border-0 rounded-4 mb-5">
-              <div class="card-body p-5">
-                <!-- Lista de habilidades profesionales -->
-                <section id="portfolio">
-  <div class="mb-5">
+          </div>
+        </section>
+        <!-- Divider-->
+        <div class="pb-5"></div>
+        <!-- Skills Section-->
+        <section>
+          <!-- Skillset Card-->
+          <h2 class="text-primary fw-bolder mb-4">Habilidades</h2>
+          <div class="card shadow border-0 rounded-4 mb-5">
+            <div class="card-body p-5">
+              <!-- Lista de habilidades profesionales -->
+              <section id="portfolio">
+                <div class="mb-5">
                   <div class="d-flex align-items-center mb-4">
-                    <div
-                      class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"
-                    >
+                    <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3">
                       <i class="bi bi-tools"></i>
                     </div>
                     <h3 class="fw-bolder mb-0">
-                      <span class="text-primary d-inline">Habilidades</span>
+                      <span class="text-body d-inline">Tecnicas</span>
                     </h3>
                   </div>
                   <div class="row row-cols-1 row-cols-md-3 mb-4">
                     <div class="col mb-4 mb-md-0">
-                      <div
-                        class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                      >
-                        Remates de Cabeza
+                      <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 skill-pill">
+                        Regate
                       </div>
                     </div>
                     <div class="col mb-4 mb-md-0">
-                      <div
-                        class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                      >
-                        Saques de esquina
+                      <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 skill-pill">
+                        Ritmo
                       </div>
                     </div>
                     <div class="col">
-                      <div
-                        class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                      >
-                        Balon parado
+                      <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 skill-pill">
+                        Disparo
                       </div>
                     </div>
                   </div>
                   <div class="row row-cols-1 row-cols-md-3">
                     <div class="col mb-4 mb-md-0">
-                      <div
-                        class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                      >
-                        Regate de defesas
+                      <div class="skill-pill d-flex align-items-center bg-light rounded-4 p-3 h-100 skill-pill">
+                        Balon Parado
                       </div>
                     </div>
                     <div class="col mb-4 mb-md-0">
-                      <div
-                        class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                      >
-                        Velocidad punta
+                      <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 skill-pill">
+                        Chilena
                       </div>
                     </div>
                     <div class="col">
-                      <div
-                        class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                      >
-                        Soy mi propio psicologo
+                      <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 skill-pill">
+                        Bicicleta
                       </div>
                     </div>
                   </div>
@@ -382,98 +353,83 @@
 
                 <div class="mb-0">
                   <div class="d-flex align-items-center mb-4">
-                    <div
-                      class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"
-                    >
+                    <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3">
                       <i class="bi bi-code-slash"></i>
                     </div>
                     <h3 class="fw-bolder mb-0">
-                      <span class="text-gradient d-inline">Extras</span>
+                      <span class="text-body d-inline">SoftSkills</span>
                     </h3>
                   </div>
                   <div class="row row-cols-1 row-cols-md-3 mb-4">
                     <div class="col mb-4 mb-md-0">
-                      <div
-                        class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                      >
-                        Bicicleta
+                      <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 skill-pill">
+                        Psicologo
                       </div>
                     </div>
                     <div class="col mb-4 mb-md-0">
-                      <div
-                        class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                      >
-                        Calidad
+                      <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 skill-pill">
+                        Discurso
                       </div>
                     </div>
                     <div class="col">
-                      <div
-                        class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                      >
-                        Chilenas
+                      <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 skill-pill">
+                        Carisma
                       </div>
                     </div>
                   </div>
                   <div class="row row-cols-1 row-cols-md-3">
                     <div class="col mb-4 mb-md-0">
-                      <div
-                        class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                      >
+                      <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 skill-pill">
                         Alto
                       </div>
                     </div>
                     <div class="col mb-4 mb-md-0">
-                      <div
-                        class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                      >
+                      <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 skill-pill">
                         Guapo
                       </div>
                     </div>
                     <div class="col">
-                      <div
-                        class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
-                      >
+                      <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 skill-pill">
                         Rico
                       </div>
                     </div>
-                  
+
+                  </div>
+                </div>
+              </section>
+            </div>
+
+          </div>
+
+          <!-- Lista de lenguajes de programacion -->
+        </section>
+
+
+
+        <!-- Footer -->
+
+        <footer class="bg-light py-4 mt-auto col-12">
+          <div class="container px-5">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+              <div class="col-auto">
+                <div class="small m-0">Copyright &copy; Cristiano Ronaldo 2023</div>
+              </div>
+              <div class="col-auto d-flex justify-content-center fs-4 gap-3">
+                <a href="#!"><i class="bi bi-twitter"></i></a>
+                <a href="#!"><i class="bi bi-linkedin"></i></a>
+                <a href="#!"><i class="bi bi-github"></i></a>
+                <span class="mx-1">&middot;</span>
+                <a class="small" href="#!">Contacto</a>
+                <span class="mx-1">&middot;</span>
+                <a class="small" href="#!">Privacidad</a>
+                <span class="mx-1">&middot;</span>
+                <a class="small" href="#!">Terminos</a>
               </div>
             </div>
-          </section>
-        </div>
-      
-    </div>
-
-    <!-- Lista de lenguajes de programacion -->
-                </section>
-                
-
-
-    <!-- Footer -->
-
-    <footer class="bg-light py-4 mt-auto col-12">
-      <div class="container px-5">
-        <div
-          class="row align-items-center justify-content-between flex-column flex-sm-row"
-        >
-          <div class="col-auto">
-            <div class="small m-0">Copyright &copy; Cristiano Ronaldo 2023</div>
           </div>
-          <div class="col-auto d-flex justify-content-center fs-4 gap-3">
-            <a href="#!"><i class="bi bi-twitter"></i></a>
-            <a href="#!"><i class="bi bi-linkedin"></i></a>
-            <a href="#!"><i class="bi bi-github"></i></a>
-            <span class="mx-1">&middot;</span>
-            <a class="small" href="#!">Contacto</a>
-            <span class="mx-1">&middot;</span>
-            <a class="small" href="#!">Privacidad</a>
-            <span class="mx-1">&middot;</span>
-            <a class="small" href="#!">Terminos</a>
-          </div>
-        </div>
-      </div>
-    </footer>
+        </footer>
 
-    <!-- Footer -->
-  </body>
+        <!-- Footer -->
+</body>
+
 </html>

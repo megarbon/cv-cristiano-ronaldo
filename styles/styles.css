@@ -1,17 +1,35 @@
 body {
-    font: 20px Montserrat, sans-serif;
-    color: #1d1d1d;
-  }
+  font: 20px Montserrat, sans-serif;
+  color: #1d1d1d;
+  background: linear-gradient(
+    90deg,
+    rgba(213, 213, 224, 1) 0%,
+    rgba(190, 190, 255, 1) 43%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
 
-  .navbar {
-    font-size: 18px;
-    letter-spacing: 5px;
-   
-  }
-  .navbar-nav li a:hover {
-    color: #50affc !important;
-  }
+.navbar {
+  font-size: 18px;
+  letter-spacing: 5px;
+}
+.navbar-nav li a:hover {
+  color: #50affc !important;
+}
 
-  #search-icon:hover{
-    color: #fff;
-  }
+#search-icon:hover {
+  color: #fff;
+}
+
+.skill-pill:hover {
+  transform: scale(1.1);
+  background-color: #8ed2ff !important;
+  color: #272727;
+  cursor: pointer;
+  animation-delay: 2s;
+}
+
+.experience-container:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
